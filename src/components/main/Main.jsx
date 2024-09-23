@@ -1,4 +1,4 @@
-import Button from "../button/button";
+import Button from "../button/Button";
 import leftImage from "../../assets/ai-art-astronaut-spacesuit-space-science-fiction-hd-wallpaper-preview.jpg";
 import rightImage from "../../assets/istockphoto-1364859722-612x612.jpg";
 import video from "../../assets/34f50ded-1740-49e6-a0b9-aa0838d1379c.mp4";

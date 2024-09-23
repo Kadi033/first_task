@@ -1,5 +1,5 @@
 import logo from "../../assets/download.svg";
-import Button from "../button/button";
+import Button from "../button/Button";
 import "./Header.css";
 function Header() {
   return (
