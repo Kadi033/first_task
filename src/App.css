@@ -5,3 +5,8 @@
   font-family: sans-serif;
   background-color: #101011;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
