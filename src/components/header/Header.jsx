@@ -11,8 +11,8 @@ function Header() {
         <nav className="firstNavBar">
           <a href="/">Home</a>
           <a href="/">About</a>
-          <a href="/">Features</a>
-          <a href="/">Pricing</a>
+          <a href="/">Contact</a>
+          <a href="/">Assignment-3</a>
         </nav>
       </div>
 
