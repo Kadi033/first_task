@@ -1,5 +1,5 @@
 import "./Main.css";
-import Product from "../products/Product";
+import Product from "../../components/products/Product";
 import chatbot from "../../assets/chatbot.jpg";
 import designer from "../../assets/designer.jpg";
 import developer from "../../assets/developer.jpg";

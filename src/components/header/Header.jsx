@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/download.svg";
 import Button from "../button/Button";
 import "./Header.css";
@@ -9,10 +10,10 @@ function Header() {
           <img src={logo} alt="/" />
         </div>
         <nav className="firstNavBar">
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Contact</a>
-          <a href="/">Assignment-3</a>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/assignment-3">Assignment-3</Link>
         </nav>
       </div>
 
