@@ -1,9 +1,13 @@
 import "./Button.css";
+import PropTypes from "prop-types";
 
-function Button() {
+function Button({ width, text }) {
   return (
-    <div className="mainButton">Contact Us</div>
+    <div className="mainButton" style={{width: width, margin: '0 auto'}}>{text}</div>
   )
 }
-
+Button.propTypes = {
+  width: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
+};
 export default Button

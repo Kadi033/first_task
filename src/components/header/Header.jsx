@@ -20,7 +20,7 @@ function Header() {
       <nav className="secondNavBar">
         <a href="/">What’s New</a>
         <a href="/">Help</a>
-        <Button />
+        <Button text="Contact Us" width="120px" />
       </nav>
     </div>
   );
