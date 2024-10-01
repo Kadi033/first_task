@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 
 function Product({ image, title, description, onAddToCart }) {
   return (
@@ -15,11 +14,5 @@ function Product({ image, title, description, onAddToCart }) {
   );
 }
 
-Product.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  onAddToCart: PropTypes.func.isRequired,
-};
 
 export default Product;

@@ -10,16 +10,17 @@ function Task() {
     imageURL: "https://example.com/images/product-10002.jpg",
   };
 
-  const rows = Object.entries(obj).reduce((acc, [key, value], index) => {
-    acc.push(
+  const rows = Object.entries(obj).reduce(
+    (acc, [key, value], index) => [
+      ...acc,
       <tr key={`${key}-${index}`}>
         <td>{key}</td>
         <td>{value}</td>
         <td>{index}</td>
-      </tr>
-    );
-    return acc;
-  }, []);
+      </tr>,
+    ],
+    []
+  );
 
   return (
     <div className="task-container">
