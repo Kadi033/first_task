@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/download.svg";
 import Button from "../button/Button";
 import "./Header.css";
+
 function Header() {
   return (
     <div className="headerContainer">
@@ -14,6 +15,8 @@ function Header() {
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/assignment-3">Assignment-3</Link>
+          <Link to="/blog">Blog</Link>
+          <Link to="/profile">Profile</Link> 
         </nav>
       </div>
 
